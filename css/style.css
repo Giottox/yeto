@@ -1,0 +1,275 @@
+body {
+  cursor: default;
+}
+
+/* navbar */
+
+.ulist {
+  margin: 0;
+  line-height: 56px;
+}
+
+.ulist li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.ulist li a {
+  color: #fff;
+}
+
+.bramd {
+  color: #fff;
+  line-height: 56px;
+  font-size: 2rem;
+}
+
+
+@media only screen and (max-width : 992px) {
+      .bramd {
+        margin-left: 38%;
+      }
+}
+
+
+/* /navbar */
+
+.firsts {
+  height: 100vh;
+  background: url(../img/head.jpg) no-repeat; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+.block-head {
+  margin-top: 200px;
+}
+
+.h3h {
+  font-size: 52px;
+  color: #fff;
+}
+
+.pp {
+  color: #fff;
+  font-size: 16px;
+}
+
+.button-collapse i {
+  line-height: 2;
+}
+
+
+/* ul>li effect */
+
+.ulist a {
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  font-weight: bold;
+  color: #fff;
+}
+
+.ulist a:after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  visibility: hidden;
+  background-color: #fff;
+  -webkit-transition: all .1s ease;
+  transition: all 0.3s ease;  
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+}
+
+.ulist a:hover:after {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+/* /end */
+
+/* effect logo */
+
+.bramd {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-transition: .2s;
+}
+.bramd:hover {
+  color: black;
+}
+
+@media (-webkit-min-device-pixel-ratio:0) {
+  .bramd {
+    background-color: #fff;
+    background-image: -webkit-linear-gradient(left, #bbdefb 10%, #bbdefb 50%, transparent 50%);
+    background-position: 100% 0;
+    background-size: 200% 200%;
+    color: transparent;
+    -webkit-transition: .2s .3s;
+    -webkit-background-clip: text;
+  }
+  .bramd:hover {
+    background-position: 0 0;
+    color: transparent;
+    transition: .4s 0;
+  }
+}
+
+/* /end */
+
+/* section 2 */
+
+.about {
+  background-color: #fff;
+}
+
+.row {
+  margin: 0;
+}
+
+.main-info {
+  padding: 40px 0 20px 0;
+  color: #111;
+}
+/* /section 2 */
+
+/* parallax section */
+
+.par-text {
+  color: white;
+  margin: 110px 0;
+}
+
+.par-text h2{
+  margin: 15px 0 20px 0;
+  font-weight: 500;
+}
+
+.par-text p {
+  margin: 30px 0 30px 0;
+  font-size: 22px;
+}
+
+.par-text a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #bbdefb;
+  -webkit-transition: all .3s;
+}
+
+.hovera:hover {
+  border-bottom: 2px solid #bbdefb;
+  -webkit-transition: all .2s;
+}
+
+.btn-download {
+  padding: 10px 60px;
+  line-height: 1.42857143;
+  color: #fff !important;
+  display: inline-block;
+  border: 3px solid #fff;
+  font-weight: 600;
+  -webkit-transition: all .3s linear;
+  margin-bottom: 20px;
+  opacity: 1;
+}
+
+.btn-download i {
+  vertical-align: middle;
+}
+
+.btn-download:hover {
+  opacity: .8;
+  -webkit-transition: all .3s linear;
+}
+
+/* /parallax section */
+
+/* image-section */
+
+.margina{
+  margin: 8px 0;
+  transition: all .3s;
+}
+
+.margina :hover {
+  opacity: 0.9;
+  transition: all .3s;
+}
+
+.margina-bot {
+  margin-bottom: 50px;
+}
+
+/* /image-section */
+
+/* swiper slider section */
+
+ .pad {
+      padding: 20px 0 50px 0;
+      background: #e3f2fd;
+    }
+
+    .swiper-container {
+        width: 850px;
+        max-width: 100%;
+        height: 300px;
+        max-height: 100%;
+        margin: 20px auto;
+    }
+    .swiper-slide {
+        text-align: center;
+        line-height: 25px;
+        font-size: 18px;
+        background: transparent;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+/* /swiper slider section */
+
+/* /footer */
+
+.dno {
+  background: #64b5f6;
+  padding-top: 20px;
+}
+
+.bye p {
+  margin: 0;
+  color: #fff;
+}
+
+.list-vk ul {
+  margin: 0;
+}
+
+.list-vk li {
+  display: inline-block;
+  letter-spacing: 20px;
+}
+
+/* /footer text-indent: 10px; */ 
